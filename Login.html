@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login page</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <section id="login">
         <link rel="stylesheet" href="Login.css">
-        <form action="D:\XAMPP\htdocs\MyCode\Login.php" method="post">
+        <form action="D:\XAMPP\htdocs\MyCode\Login.php" method="post"></form>
             <div class="box">
                 <p id="head">Trible</p>
                 <p id="para">Login to your Account</p>
                 <br>
-                <input type="text" name="name" id="name" class="input" placeholder="Enter Your Name">
+                <input type="text" name="name" id="name" class="input" placeholder="Your Name">
                 <br>
-                <input type="email" name="email" class="input" placeholder="Enter your email id">
+                <input type="email" name="email" class="input" placeholder="Email">
                 <br>
-                <input type="password" name="password" class="input" placeholder="Enter your password">
+                <input type="password" name="password" class="input" placeholder="Password">
                 <br>
                 <a href="#" id="link1">Forget Password ?</a>
                 <br>
@@ -27,9 +27,28 @@
                 <div class="signup">
                     <p>Not a Member ? </p>
                     <a href="#" id="link2">sign up</a>
-                </div>     
-            </div>
-        </form>
+                </div>  
+            
+                
+                <div class="line">
+                    <hr id="line"/> 
+                    <p>OR CONTINUE WITH</p>
+                    <hr id="line"/>
+                </div>
+
+                <div class="font">
+                    <a href="https://www.google.com">
+                        <i class="fa-brands fa-google" id="google"></i>
+                    </a>
+                    <a href="https://www.facebook.com">
+                        <i class="fa-brands fa-facebook-f" id="facebook" href="#"></i>
+                    </a>
+                    <a href="https://www.twitter.com">
+                        <i class="fa-brands fa-twitter" id="twitter" href="#"></i>
+                    </a>
+                </div>
+            </div>    
+        </form>             
     </section>
 </body>
 </html>

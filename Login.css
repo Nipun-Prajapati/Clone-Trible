@@ -12,7 +12,7 @@ body {
 
 
 .box {
-    height: 500px;
+    height: 600px;
     width: 700px;
     border: transparent;
     border-radius: 20px;
@@ -70,4 +70,35 @@ body {
     padding-top: 20px;
     padding-left: 10px;
 
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line p {
+    margin: 20px;
+}
+
+#line {
+    width: 200px;
+}
+
+#google {
+    font-size: 30px;
+    margin-right: 100px;
+}
+#facebook {
+    font-size: 30px;
+    margin-right: 100px;
+}
+#twitter {
+    font-size: 30px;
+}
+
+.font a {
+    color: black;
+    text-decoration: none;
 }
