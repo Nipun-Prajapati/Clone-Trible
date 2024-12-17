@@ -1,7 +1,9 @@
+
+/*This is for whole body style.*/
 body {
     /*100vh cover a full page display.*/
     height: 100vh;
-    background-color: #2A9D8F; 
+    background-color: #020617; 
     padding: 0;
     margin: 0;
     box-sizing:border-box;
@@ -10,9 +12,33 @@ body {
     align-items: center;
 }
 
+/*This is for remove button.*/
 
+.remove {
+    height: 40px;
+    width: 40px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 600px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.remove  i {
+    font-size: 30px;
+    color: gray;
+}
+
+.remove i:hover {
+    color: black;
+}
+
+/*This is for login box only.*/
 .box {
-    height: 600px;
+    height: 650px;
     width: 700px;
     border: transparent;
     border-radius: 20px;
@@ -22,11 +48,19 @@ body {
     align-items: center;
 }
 
+
+/*This is for heading style.*/
 #head {
     font-size: 30px;
     font-weight: 700;
 }
 
+#para {
+    font-size : 20px;
+    font-weight: bold;
+}
+
+/*This style for three inputs.*/
 .input {
     height: 30px;
     width: 60%;
@@ -36,17 +70,14 @@ body {
     outline: none;
 }
 
-#para {
-    font-size : 20px;
-    font-weight: bold;
-}
-
+/*This is forget a password page link*/
 #link1 {
     color: yellow;
     text-decoration: none;
     font-size: 18px;
 }
 
+/*This is for log in button.*/
 #btn {
     height: 30px;
     width: 60%;
@@ -54,8 +85,10 @@ body {
     border: transparent;
     border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 
+/*This is sign up page link.*/
 .signup {
     display: flex;
 }
@@ -72,6 +105,7 @@ body {
 
 }
 
+/*Line*/
 .line {
     display: flex;
     justify-content: space-between;
@@ -85,6 +119,8 @@ body {
 #line {
     width: 200px;
 }
+
+/*This is for font Awesome.*/
 
 #google {
     font-size: 30px;

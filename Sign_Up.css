@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    background-color: #042f2e;
+}
+
+#head {
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.signup {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;  
+    margin-top: 30px;
+    background-color: #134e4a;
+}
+
+#heading {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+
+#info {
+    font-size: 20px;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logos div{
+    height: 50px;
+    width: 150px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.google a {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+.facebook a {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+.twitter a {
+    font-size: 20px;
+    color: black;
+    display: flex;
+    text-decoration: none;
+}
+
+
+
+#google {
+    font-size: 20px;
+    margin-right: 10px;
+}
+#facebook {
+    font-size: 20px;
+    margin-right: 10px;
+}
+#twitter {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.line #line {
+    width: 140px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.input {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+input {
+    height: 30px;
+    width: 95%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+#sign {
+    padding: 10px 175px 10px 175px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #dc2626;
+}
+
+.log {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.log a {
+    margin-left: 5px;
+    color: yellow;
+}

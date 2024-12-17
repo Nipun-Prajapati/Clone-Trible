@@ -9,27 +9,35 @@
 <body>
     <section id="login">
         <link rel="stylesheet" href="Login.css">
-        <form action="D:\XAMPP\htdocs\MyCode\Login.php" method="post"></form>
+        <form action="#" method="post">
             <div class="box">
+                <!--This is for remove button.-->
+                <div class="remove">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <!--This is Heading-->
                 <p id="head">Trible</p>
                 <p id="para">Login to your Account</p>
                 <br>
+                <!--This is Three input name , email and passwoed.-->
                 <input type="text" name="name" id="name" class="input" placeholder="Your Name">
                 <br>
                 <input type="email" name="email" class="input" placeholder="Email">
                 <br>
                 <input type="password" name="password" class="input" placeholder="Password">
                 <br>
+                <!--This is for forget a password.-->
                 <a href="#" id="link1">Forget Password ?</a>
                 <br>
+                <!--This is log in button.-->
                 <input type="button" value="Log In" id="btn">
                 <br>
+                <!--This is link for sign up.-->
                 <div class="signup">
                     <p>Not a Member ? </p>
-                    <a href="#" id="link2">sign up</a>
+                    <a href="Sign_Up.html" id="link2">sign up</a>
                 </div>  
-            
-                
+                <!--This is for countinue with apps.-->
                 <div class="line">
                     <hr id="line"/> 
                     <p>OR CONTINUE WITH</p>
@@ -47,7 +55,9 @@
                         <i class="fa-brands fa-twitter" id="twitter" href="#"></i>
                     </a>
                 </div>
-            </div>    
+
+            </div>  
+
         </form>             
     </section>
 </body>
