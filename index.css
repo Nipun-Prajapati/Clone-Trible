@@ -133,7 +133,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 450px;
+    height: 500px;
 }
 
 #info {
@@ -147,14 +147,53 @@ body {
     margin-right: 50px;
     margin-top: 20px;
 }
-.info3 {
+
+/*Per Swipper style*/
+
+.swiper-slide {
     margin-top: 20px;
-    width: 90%;
+    width: 100%;
+    height: 90%;
     border: transparent;
     border-radius: 10px;
     background-color: rgb(255, 255, 255);
     font-size: 30px;
-    padding: 20px 20px 20px 20px ;
+    padding: 20px 20px 20px 45px ;
+}
+
+/*mySwiper is main div of swipper*/
+
+.mySwiper {
+    margin-left: 50px;
+    height: 200px;
+    width: 90%;
+}
+
+/*left or right button*/
+
+.swipper-btn {
+    color: black;
+}
+
+/*Slide color*/
+
+#slide1 {
+    background-color: lightcoral;
+}
+#slide2 {
+    background-color: lightblue;
+}
+#slide3 {
+    background-color: lightgreen;
+}
+#slide4 {
+    background-color: lightslategray;
+}
+#slide5 {
+    background-color: lightsalmon;
+}
+#slide6 {
+    background-color: lightgrey;
 }
 
 /*This is information of website.*/
