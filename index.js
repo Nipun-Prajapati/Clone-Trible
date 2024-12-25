@@ -4,3 +4,11 @@ var swiper = new Swiper(".mySwiper", {
     prevEl: ".swiper-button-prev",
   },
 });
+
+
+
+var swiper = new Swiper(".reviews .mySwiper", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
